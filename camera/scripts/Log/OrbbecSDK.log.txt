@@ -1,0 +1,728 @@
+[01/23 15:55:33.050407][debug][300218][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 15:55:33.050422][debug][300218][Context.cpp:49] Config file version=1.1
+[01/23 15:55:33.050698][debug][300218][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 15:55:33.050703][info][300218][Context.cpp:68] Context created with config: default config!
+[01/23 15:55:33.050709][info][300218][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 15:55:33.050715][debug][300218][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 15:55:33.050718][info][300218][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 15:55:33.051010][debug][300218][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 15:55:33.194971][debug][300218][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 15:55:33.195078][debug][300218][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 15:55:33.195100][debug][300218][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 15:55:33.195114][debug][300218][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 15:55:33.195127][debug][300218][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 15:55:33.195139][debug][300218][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 15:55:33.195151][debug][300218][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 15:55:33.195163][debug][300218][UsbDeviceEnumerator.cpp:166]  - 2-3-3.0 | Orbbec Gemini 2 Depth Camera
+[01/23 15:55:33.195176][debug][300218][UsbDeviceEnumerator.cpp:166]  - 2-3-3.2 | Orbbec Gemini 2 IR Camera
+[01/23 15:55:33.195188][debug][300218][UsbDeviceEnumerator.cpp:166]  - 2-3-3.4 | Orbbec Gemini 2 RGB Camera
+[01/23 15:55:33.195200][debug][300218][UsbDeviceEnumerator.cpp:166]  - 2-3-3.6 | Orbbec Gemini Data Channel
+[01/23 15:55:33.195212][debug][300218][UsbDeviceEnumerator.cpp:166]  - 2-3-3.7 | Orbbec Gemini 2 IMU
+[01/23 15:55:33.195388][info][300218][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 15:55:33.195438][debug][300218][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 15:55:33.195456][debug][300218][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 15:55:33.195468][debug][300218][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 15:55:33.195593][info][300218][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 15:55:33.195624][info][300218][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 15:55:33.195650][info][300218][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 15:55:33.195670][debug][300218][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 15:57:30.091966][debug][306729][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 15:57:30.091989][debug][306729][Context.cpp:49] Config file version=1.1
+[01/23 15:57:30.091999][debug][306729][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 15:57:30.092002][info][306729][Context.cpp:68] Context created with config: default config!
+[01/23 15:57:30.092007][info][306729][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 15:57:30.092011][debug][306729][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 15:57:30.092013][info][306729][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 15:57:30.092304][debug][306729][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 15:57:30.238401][debug][306729][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 15:57:30.238471][debug][306729][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 15:57:30.238485][debug][306729][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 15:57:30.238494][debug][306729][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 15:57:30.238520][debug][306729][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 15:57:30.238527][debug][306729][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 15:57:30.238534][debug][306729][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 15:57:30.238541][debug][306729][UsbDeviceEnumerator.cpp:166]  - 2-3-3.0 | Orbbec Gemini 2 Depth Camera
+[01/23 15:57:30.238548][debug][306729][UsbDeviceEnumerator.cpp:166]  - 2-3-3.2 | Orbbec Gemini 2 IR Camera
+[01/23 15:57:30.238555][debug][306729][UsbDeviceEnumerator.cpp:166]  - 2-3-3.4 | Orbbec Gemini 2 RGB Camera
+[01/23 15:57:30.238562][debug][306729][UsbDeviceEnumerator.cpp:166]  - 2-3-3.6 | Orbbec Gemini Data Channel
+[01/23 15:57:30.238569][debug][306729][UsbDeviceEnumerator.cpp:166]  - 2-3-3.7 | Orbbec Gemini 2 IMU
+[01/23 15:57:30.238726][info][306729][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 15:57:30.238761][debug][306729][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 15:57:30.238773][debug][306729][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 15:57:30.238781][debug][306729][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 15:57:30.238794][info][306729][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 15:57:30.238809][info][306729][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 15:57:30.238824][info][306729][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 15:57:30.238838][debug][306729][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 15:58:14.495359][debug][309524][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 15:58:14.495381][debug][309524][Context.cpp:49] Config file version=1.1
+[01/23 15:58:14.495391][debug][309524][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 15:58:14.495394][info][309524][Context.cpp:68] Context created with config: default config!
+[01/23 15:58:14.495398][info][309524][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 15:58:14.495402][debug][309524][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 15:58:14.495404][info][309524][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 15:58:14.495704][debug][309524][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 15:58:14.638803][debug][309524][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 15:58:14.638887][debug][309524][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 15:58:14.638905][debug][309524][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 15:58:14.638917][debug][309524][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 15:58:14.638927][debug][309524][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 15:58:14.638935][debug][309524][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 15:58:14.638943][debug][309524][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 15:58:14.638951][debug][309524][UsbDeviceEnumerator.cpp:166]  - 2-3-3.0 | Orbbec Gemini 2 Depth Camera
+[01/23 15:58:14.638959][debug][309524][UsbDeviceEnumerator.cpp:166]  - 2-3-3.2 | Orbbec Gemini 2 IR Camera
+[01/23 15:58:14.638967][debug][309524][UsbDeviceEnumerator.cpp:166]  - 2-3-3.4 | Orbbec Gemini 2 RGB Camera
+[01/23 15:58:14.638977][debug][309524][UsbDeviceEnumerator.cpp:166]  - 2-3-3.6 | Orbbec Gemini Data Channel
+[01/23 15:58:14.638987][debug][309524][UsbDeviceEnumerator.cpp:166]  - 2-3-3.7 | Orbbec Gemini 2 IMU
+[01/23 15:58:14.639218][info][309524][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 15:58:14.639275][debug][309524][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 15:58:14.639317][debug][309524][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 15:58:14.639333][debug][309524][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 15:58:14.639354][info][309524][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 15:58:14.639381][info][309524][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 15:58:14.639403][info][309524][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 15:58:14.639424][debug][309524][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 15:58:56.366478][debug][312009][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 15:58:56.366503][debug][312009][Context.cpp:49] Config file version=1.1
+[01/23 15:58:56.366512][debug][312009][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 15:58:56.366515][info][312009][Context.cpp:68] Context created with config: default config!
+[01/23 15:58:56.366520][info][312009][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 15:58:56.366525][debug][312009][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 15:58:56.366527][info][312009][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 15:58:56.366820][debug][312009][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 15:58:56.510688][debug][312009][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 15:58:56.510761][debug][312009][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 15:58:56.510774][debug][312009][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 15:58:56.510782][debug][312009][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 15:58:56.510788][debug][312009][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 15:58:56.510795][debug][312009][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 15:58:56.510801][debug][312009][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 15:58:56.510808][debug][312009][UsbDeviceEnumerator.cpp:166]  - 2-3-3.0 | Orbbec Gemini 2 Depth Camera
+[01/23 15:58:56.510814][debug][312009][UsbDeviceEnumerator.cpp:166]  - 2-3-3.2 | Orbbec Gemini 2 IR Camera
+[01/23 15:58:56.510820][debug][312009][UsbDeviceEnumerator.cpp:166]  - 2-3-3.4 | Orbbec Gemini 2 RGB Camera
+[01/23 15:58:56.510827][debug][312009][UsbDeviceEnumerator.cpp:166]  - 2-3-3.6 | Orbbec Gemini Data Channel
+[01/23 15:58:56.510836][debug][312009][UsbDeviceEnumerator.cpp:166]  - 2-3-3.7 | Orbbec Gemini 2 IMU
+[01/23 15:58:56.510984][info][312009][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 15:58:56.511016][debug][312009][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 15:58:56.511030][debug][312009][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 15:58:56.511037][debug][312009][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 15:58:56.511050][info][312009][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 15:58:56.511066][info][312009][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 15:58:56.511078][info][312009][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 15:58:56.511091][debug][312009][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 15:59:43.762858][debug][314979][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 15:59:43.762888][debug][314979][Context.cpp:49] Config file version=1.1
+[01/23 15:59:43.762897][debug][314979][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 15:59:43.762900][info][314979][Context.cpp:68] Context created with config: default config!
+[01/23 15:59:43.762909][info][314979][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 15:59:43.762916][debug][314979][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 15:59:43.762918][info][314979][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 15:59:43.763208][debug][314979][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 15:59:43.902098][debug][314979][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 15:59:43.902177][debug][314979][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 15:59:43.902189][debug][314979][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 15:59:43.902196][debug][314979][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 15:59:43.902201][debug][314979][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 15:59:43.902207][debug][314979][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 15:59:43.902212][debug][314979][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 15:59:43.902218][debug][314979][UsbDeviceEnumerator.cpp:166]  - 2-3-3.0 | Orbbec Gemini 2 Depth Camera
+[01/23 15:59:43.902223][debug][314979][UsbDeviceEnumerator.cpp:166]  - 2-3-3.2 | Orbbec Gemini 2 IR Camera
+[01/23 15:59:43.902228][debug][314979][UsbDeviceEnumerator.cpp:166]  - 2-3-3.4 | Orbbec Gemini 2 RGB Camera
+[01/23 15:59:43.902234][debug][314979][UsbDeviceEnumerator.cpp:166]  - 2-3-3.6 | Orbbec Gemini Data Channel
+[01/23 15:59:43.902239][debug][314979][UsbDeviceEnumerator.cpp:166]  - 2-3-3.7 | Orbbec Gemini 2 IMU
+[01/23 15:59:43.902371][info][314979][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 15:59:43.902400][debug][314979][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 15:59:43.902410][debug][314979][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 15:59:43.902416][debug][314979][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 15:59:43.902427][info][314979][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 15:59:43.902442][info][314979][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 15:59:43.902453][info][314979][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 15:59:43.902463][debug][314979][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 16:00:47.991806][debug][318756][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 16:00:47.991832][debug][318756][Context.cpp:49] Config file version=1.1
+[01/23 16:00:47.991841][debug][318756][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 16:00:47.991844][info][318756][Context.cpp:68] Context created with config: default config!
+[01/23 16:00:47.991849][info][318756][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 16:00:47.991856][debug][318756][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 16:00:47.991858][info][318756][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 16:00:47.992156][debug][318756][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 16:00:48.134492][debug][318756][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 16:00:48.134560][debug][318756][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 16:00:48.134569][debug][318756][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:00:48.134575][debug][318756][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:00:48.134579][debug][318756][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:00:48.134584][debug][318756][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 16:00:48.134588][debug][318756][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 16:00:48.134603][debug][318756][UsbDeviceEnumerator.cpp:166]  - 2-3-3.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:00:48.134608][debug][318756][UsbDeviceEnumerator.cpp:166]  - 2-3-3.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:00:48.134612][debug][318756][UsbDeviceEnumerator.cpp:166]  - 2-3-3.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:00:48.134618][debug][318756][UsbDeviceEnumerator.cpp:166]  - 2-3-3.6 | Orbbec Gemini Data Channel
+[01/23 16:00:48.134623][debug][318756][UsbDeviceEnumerator.cpp:166]  - 2-3-3.7 | Orbbec Gemini 2 IMU
+[01/23 16:00:48.134727][info][318756][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 16:00:48.134752][debug][318756][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 16:00:48.134760][debug][318756][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 16:00:48.134765][debug][318756][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 16:00:48.134774][info][318756][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 16:00:48.134785][info][318756][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 16:00:48.134795][info][318756][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 16:00:48.134805][debug][318756][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 16:03:31.463349][debug][327776][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 16:03:31.463375][debug][327776][Context.cpp:49] Config file version=1.1
+[01/23 16:03:31.463383][debug][327776][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 16:03:31.463385][info][327776][Context.cpp:68] Context created with config: default config!
+[01/23 16:03:31.463390][info][327776][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 16:03:31.463394][debug][327776][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 16:03:31.463396][info][327776][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 16:03:31.463697][debug][327776][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 16:03:31.603184][debug][327776][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 16:03:31.603292][debug][327776][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 16:03:31.603310][debug][327776][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:03:31.603325][debug][327776][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:03:31.603337][debug][327776][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:03:31.603349][debug][327776][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 16:03:31.603362][debug][327776][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 16:03:31.603374][debug][327776][UsbDeviceEnumerator.cpp:166]  - 2-3-3.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:03:31.603386][debug][327776][UsbDeviceEnumerator.cpp:166]  - 2-3-3.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:03:31.603399][debug][327776][UsbDeviceEnumerator.cpp:166]  - 2-3-3.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:03:31.603411][debug][327776][UsbDeviceEnumerator.cpp:166]  - 2-3-3.6 | Orbbec Gemini Data Channel
+[01/23 16:03:31.603423][debug][327776][UsbDeviceEnumerator.cpp:166]  - 2-3-3.7 | Orbbec Gemini 2 IMU
+[01/23 16:03:31.603614][info][327776][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 16:03:31.603658][debug][327776][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 16:03:31.603676][debug][327776][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 16:03:31.603689][debug][327776][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 16:03:31.603708][info][327776][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 16:03:31.603752][info][327776][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 16:03:31.603773][info][327776][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 16:03:31.603794][debug][327776][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 16:13:42.434188][debug][361897][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 16:13:42.434215][debug][361897][Context.cpp:49] Config file version=1.1
+[01/23 16:13:42.434226][debug][361897][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 16:13:42.434229][info][361897][Context.cpp:68] Context created with config: default config!
+[01/23 16:13:42.434234][info][361897][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 16:13:42.434238][debug][361897][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 16:13:42.434240][info][361897][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 16:13:42.434551][debug][361897][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 16:13:42.574983][debug][361897][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 16:13:42.575050][debug][361897][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 16:13:42.575061][debug][361897][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:13:42.575067][debug][361897][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:13:42.575073][debug][361897][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:13:42.575079][debug][361897][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 16:13:42.575085][debug][361897][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 16:13:42.575091][debug][361897][UsbDeviceEnumerator.cpp:166]  - 2-3-3.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:13:42.575097][debug][361897][UsbDeviceEnumerator.cpp:166]  - 2-3-3.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:13:42.575102][debug][361897][UsbDeviceEnumerator.cpp:166]  - 2-3-3.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:13:42.575108][debug][361897][UsbDeviceEnumerator.cpp:166]  - 2-3-3.6 | Orbbec Gemini Data Channel
+[01/23 16:13:42.575114][debug][361897][UsbDeviceEnumerator.cpp:166]  - 2-3-3.7 | Orbbec Gemini 2 IMU
+[01/23 16:13:42.575247][info][361897][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 16:13:42.575276][debug][361897][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 16:13:42.575285][debug][361897][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 16:13:42.575293][debug][361897][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 16:13:42.575305][info][361897][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 16:13:42.575318][info][361897][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 16:13:42.575330][info][361897][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 16:13:42.575342][debug][361897][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 16:14:36.074841][debug][365064][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 16:14:36.074867][debug][365064][Context.cpp:49] Config file version=1.1
+[01/23 16:14:36.074877][debug][365064][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 16:14:36.074880][info][365064][Context.cpp:68] Context created with config: default config!
+[01/23 16:14:36.074888][info][365064][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 16:14:36.074893][debug][365064][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 16:14:36.074896][info][365064][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 16:14:36.075200][debug][365064][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 16:14:36.214996][debug][365064][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 16:14:36.215087][debug][365064][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 16:14:36.215110][debug][365064][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:14:36.215123][debug][365064][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:14:36.215136][debug][365064][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:14:36.215150][debug][365064][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 16:14:36.215163][debug][365064][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 16:14:36.215174][debug][365064][UsbDeviceEnumerator.cpp:166]  - 2-3-3.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:14:36.215185][debug][365064][UsbDeviceEnumerator.cpp:166]  - 2-3-3.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:14:36.215197][debug][365064][UsbDeviceEnumerator.cpp:166]  - 2-3-3.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:14:36.215208][debug][365064][UsbDeviceEnumerator.cpp:166]  - 2-3-3.6 | Orbbec Gemini Data Channel
+[01/23 16:14:36.215220][debug][365064][UsbDeviceEnumerator.cpp:166]  - 2-3-3.7 | Orbbec Gemini 2 IMU
+[01/23 16:14:36.215421][info][365064][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 16:14:36.215477][debug][365064][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 16:14:36.215495][debug][365064][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 16:14:36.215509][debug][365064][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 16:14:36.215530][info][365064][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 16:14:36.215556][info][365064][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 16:14:36.215580][info][365064][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 16:14:36.215602][debug][365064][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 16:15:13.301013][debug][367327][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 16:15:13.301038][debug][367327][Context.cpp:49] Config file version=1.1
+[01/23 16:15:13.301045][debug][367327][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 16:15:13.301049][info][367327][Context.cpp:68] Context created with config: default config!
+[01/23 16:15:13.301054][info][367327][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 16:15:13.301058][debug][367327][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 16:15:13.301059][info][367327][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 16:15:13.301347][debug][367327][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 16:15:13.442799][debug][367327][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 16:15:13.442869][debug][367327][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 16:15:13.442885][debug][367327][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:15:13.442895][debug][367327][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:15:13.442904][debug][367327][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:15:13.442911][debug][367327][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 16:15:13.442918][debug][367327][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 16:15:13.442925][debug][367327][UsbDeviceEnumerator.cpp:166]  - 2-3-3.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:15:13.442931][debug][367327][UsbDeviceEnumerator.cpp:166]  - 2-3-3.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:15:13.442938][debug][367327][UsbDeviceEnumerator.cpp:166]  - 2-3-3.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:15:13.442961][debug][367327][UsbDeviceEnumerator.cpp:166]  - 2-3-3.6 | Orbbec Gemini Data Channel
+[01/23 16:15:13.442969][debug][367327][UsbDeviceEnumerator.cpp:166]  - 2-3-3.7 | Orbbec Gemini 2 IMU
+[01/23 16:15:13.443081][info][367327][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 16:15:13.443116][debug][367327][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 16:15:13.443127][debug][367327][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 16:15:13.443135][debug][367327][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 16:15:13.443147][info][367327][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 16:15:13.443166][info][367327][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 16:15:13.443180][info][367327][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 16:15:13.443193][debug][367327][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 16:32:52.672713][debug][425904][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 16:32:52.672740][debug][425904][Context.cpp:49] Config file version=1.1
+[01/23 16:32:52.672748][debug][425904][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 16:32:52.672751][info][425904][Context.cpp:68] Context created with config: default config!
+[01/23 16:32:52.672757][info][425904][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 16:32:52.672760][debug][425904][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 16:32:52.672762][info][425904][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 16:32:52.673054][debug][425904][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 16:32:52.814842][debug][425904][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 16:32:52.814896][debug][425904][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 16:32:52.814904][debug][425904][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:32:52.814909][debug][425904][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:32:52.814913][debug][425904][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:32:52.814917][debug][425904][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 16:32:52.814920][debug][425904][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 16:32:52.814924][debug][425904][UsbDeviceEnumerator.cpp:166]  - 2-3-3.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:32:52.814928][debug][425904][UsbDeviceEnumerator.cpp:166]  - 2-3-3.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:32:52.814932][debug][425904][UsbDeviceEnumerator.cpp:166]  - 2-3-3.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:32:52.814936][debug][425904][UsbDeviceEnumerator.cpp:166]  - 2-3-3.6 | Orbbec Gemini Data Channel
+[01/23 16:32:52.814941][debug][425904][UsbDeviceEnumerator.cpp:166]  - 2-3-3.7 | Orbbec Gemini 2 IMU
+[01/23 16:32:52.815040][info][425904][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 16:32:52.815066][debug][425904][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 16:32:52.815073][debug][425904][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 16:32:52.815078][debug][425904][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 16:32:52.815087][info][425904][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 16:32:52.815096][info][425904][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 16:32:52.815104][info][425904][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 16:32:52.815112][debug][425904][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 16:32:59.694880][debug][426475][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 16:32:59.694905][debug][426475][Context.cpp:49] Config file version=1.1
+[01/23 16:32:59.694913][debug][426475][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 16:32:59.694916][info][426475][Context.cpp:68] Context created with config: default config!
+[01/23 16:32:59.694922][info][426475][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 16:32:59.694926][debug][426475][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 16:32:59.694928][info][426475][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 16:32:59.695230][debug][426475][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 16:32:59.837830][debug][426475][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 16:32:59.837862][debug][426475][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 16:32:59.837866][debug][426475][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:32:59.837867][debug][426475][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:32:59.837869][debug][426475][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:32:59.837870][debug][426475][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 16:32:59.837872][debug][426475][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 16:32:59.837873][debug][426475][UsbDeviceEnumerator.cpp:166]  - 2-3-3.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:32:59.837875][debug][426475][UsbDeviceEnumerator.cpp:166]  - 2-3-3.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:32:59.837877][debug][426475][UsbDeviceEnumerator.cpp:166]  - 2-3-3.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:32:59.837879][debug][426475][UsbDeviceEnumerator.cpp:166]  - 2-3-3.6 | Orbbec Gemini Data Channel
+[01/23 16:32:59.837881][debug][426475][UsbDeviceEnumerator.cpp:166]  - 2-3-3.7 | Orbbec Gemini 2 IMU
+[01/23 16:32:59.837929][info][426475][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 16:32:59.837940][debug][426475][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 16:32:59.837943][debug][426475][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 16:32:59.837945][debug][426475][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 16:32:59.837949][info][426475][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 16:32:59.837953][info][426475][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 16:32:59.837956][info][426475][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 16:32:59.837959][debug][426475][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 16:33:08.526990][debug][427097][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 16:33:08.527013][debug][427097][Context.cpp:49] Config file version=1.1
+[01/23 16:33:08.527021][debug][427097][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 16:33:08.527024][info][427097][Context.cpp:68] Context created with config: default config!
+[01/23 16:33:08.527029][info][427097][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 16:33:08.527033][debug][427097][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 16:33:08.527036][info][427097][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 16:33:08.527327][debug][427097][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 16:33:08.670257][debug][427097][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 16:33:08.670321][debug][427097][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 16:33:08.670330][debug][427097][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:33:08.670348][debug][427097][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:33:08.670353][debug][427097][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:33:08.670357][debug][427097][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 16:33:08.670362][debug][427097][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 16:33:08.670367][debug][427097][UsbDeviceEnumerator.cpp:166]  - 2-3-3.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:33:08.670372][debug][427097][UsbDeviceEnumerator.cpp:166]  - 2-3-3.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:33:08.670377][debug][427097][UsbDeviceEnumerator.cpp:166]  - 2-3-3.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:33:08.670381][debug][427097][UsbDeviceEnumerator.cpp:166]  - 2-3-3.6 | Orbbec Gemini Data Channel
+[01/23 16:33:08.670386][debug][427097][UsbDeviceEnumerator.cpp:166]  - 2-3-3.7 | Orbbec Gemini 2 IMU
+[01/23 16:33:08.670509][info][427097][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 16:33:08.670533][debug][427097][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 16:33:08.670541][debug][427097][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 16:33:08.670546][debug][427097][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 16:33:08.670556][info][427097][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 16:33:08.670568][info][427097][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 16:33:08.670578][info][427097][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 16:33:08.670587][debug][427097][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 16:34:53.508106][debug][433196][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 16:34:53.508128][debug][433196][Context.cpp:49] Config file version=1.1
+[01/23 16:34:53.508136][debug][433196][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 16:34:53.508140][info][433196][Context.cpp:68] Context created with config: default config!
+[01/23 16:34:53.508145][info][433196][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 16:34:53.508150][debug][433196][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 16:34:53.508152][info][433196][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 16:34:53.508449][debug][433196][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 16:34:53.647464][debug][433196][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 16:34:53.647542][debug][433196][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 16:34:53.647555][debug][433196][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:34:53.647564][debug][433196][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:34:53.647570][debug][433196][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:34:53.647577][debug][433196][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 16:34:53.647583][debug][433196][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 16:34:53.647589][debug][433196][UsbDeviceEnumerator.cpp:166]  - 2-3-3.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:34:53.647596][debug][433196][UsbDeviceEnumerator.cpp:166]  - 2-3-3.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:34:53.647602][debug][433196][UsbDeviceEnumerator.cpp:166]  - 2-3-3.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:34:53.647608][debug][433196][UsbDeviceEnumerator.cpp:166]  - 2-3-3.6 | Orbbec Gemini Data Channel
+[01/23 16:34:53.647614][debug][433196][UsbDeviceEnumerator.cpp:166]  - 2-3-3.7 | Orbbec Gemini 2 IMU
+[01/23 16:34:53.647778][info][433196][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 16:34:53.647831][debug][433196][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 16:34:53.647842][debug][433196][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 16:34:53.647850][debug][433196][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 16:34:53.647863][info][433196][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 16:34:53.647879][info][433196][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 16:34:53.647890][info][433196][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 16:34:53.647917][debug][433196][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 16:39:03.477685][debug][446960][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 16:39:03.477710][debug][446960][Context.cpp:49] Config file version=1.1
+[01/23 16:39:03.477720][debug][446960][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 16:39:03.477724][info][446960][Context.cpp:68] Context created with config: default config!
+[01/23 16:39:03.477731][info][446960][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 16:39:03.477736][debug][446960][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 16:39:03.477738][info][446960][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 16:39:03.478049][debug][446960][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 16:39:03.622241][debug][446960][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 16:39:03.622317][debug][446960][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 16:39:03.622331][debug][446960][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:39:03.622340][debug][446960][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:39:03.622347][debug][446960][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:39:03.622355][debug][446960][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 16:39:03.622363][debug][446960][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 16:39:03.622371][debug][446960][UsbDeviceEnumerator.cpp:166]  - 2-3-3.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:39:03.622382][debug][446960][UsbDeviceEnumerator.cpp:166]  - 2-3-3.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:39:03.622390][debug][446960][UsbDeviceEnumerator.cpp:166]  - 2-3-3.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:39:03.622399][debug][446960][UsbDeviceEnumerator.cpp:166]  - 2-3-3.6 | Orbbec Gemini Data Channel
+[01/23 16:39:03.622407][debug][446960][UsbDeviceEnumerator.cpp:166]  - 2-3-3.7 | Orbbec Gemini 2 IMU
+[01/23 16:39:03.622582][info][446960][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 16:39:03.622614][debug][446960][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 16:39:03.622626][debug][446960][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 16:39:03.622635][debug][446960][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 16:39:03.622650][info][446960][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 16:39:03.622668][info][446960][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 16:39:03.622683][info][446960][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 16:39:03.622697][debug][446960][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 16:39:40.194076][debug][449048][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 16:39:40.194101][debug][449048][Context.cpp:49] Config file version=1.1
+[01/23 16:39:40.194112][debug][449048][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 16:39:40.194122][info][449048][Context.cpp:68] Context created with config: default config!
+[01/23 16:39:40.194129][info][449048][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 16:39:40.194134][debug][449048][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 16:39:40.194137][info][449048][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 16:39:40.194441][debug][449048][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 16:39:40.338184][debug][449048][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 16:39:40.338252][debug][449048][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 16:39:40.338265][debug][449048][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:39:40.338276][debug][449048][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:39:40.338283][debug][449048][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:39:40.338290][debug][449048][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 16:39:40.338297][debug][449048][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 16:39:40.338303][debug][449048][UsbDeviceEnumerator.cpp:166]  - 2-3-3.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:39:40.338310][debug][449048][UsbDeviceEnumerator.cpp:166]  - 2-3-3.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:39:40.338317][debug][449048][UsbDeviceEnumerator.cpp:166]  - 2-3-3.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:39:40.338324][debug][449048][UsbDeviceEnumerator.cpp:166]  - 2-3-3.6 | Orbbec Gemini Data Channel
+[01/23 16:39:40.338331][debug][449048][UsbDeviceEnumerator.cpp:166]  - 2-3-3.7 | Orbbec Gemini 2 IMU
+[01/23 16:39:40.338491][info][449048][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 16:39:40.338524][debug][449048][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 16:39:40.338536][debug][449048][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 16:39:40.338544][debug][449048][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 16:39:40.338565][info][449048][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 16:39:40.338579][info][449048][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 16:39:40.338594][info][449048][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 16:39:40.338607][debug][449048][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 16:43:58.570482][debug][463446][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 16:43:58.570508][debug][463446][Context.cpp:49] Config file version=1.1
+[01/23 16:43:58.570516][debug][463446][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 16:43:58.570519][info][463446][Context.cpp:68] Context created with config: default config!
+[01/23 16:43:58.570525][info][463446][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 16:43:58.570529][debug][463446][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 16:43:58.570531][info][463446][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 16:43:58.570832][debug][463446][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 16:43:58.710829][debug][463446][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 16:43:58.710916][debug][463446][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 16:43:58.710928][debug][463446][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:43:58.710934][debug][463446][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:43:58.710940][debug][463446][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:43:58.710945][debug][463446][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 16:43:58.710978][debug][463446][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 16:43:58.710985][debug][463446][UsbDeviceEnumerator.cpp:166]  - 2-3-6.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:43:58.710991][debug][463446][UsbDeviceEnumerator.cpp:166]  - 2-3-6.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:43:58.710997][debug][463446][UsbDeviceEnumerator.cpp:166]  - 2-3-6.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:43:58.711002][debug][463446][UsbDeviceEnumerator.cpp:166]  - 2-3-6.6 | Orbbec Gemini Data Channel
+[01/23 16:43:58.711007][debug][463446][UsbDeviceEnumerator.cpp:166]  - 2-3-6.7 | Orbbec Gemini 2 IMU
+[01/23 16:43:58.711133][info][463446][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 16:43:58.711165][debug][463446][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 16:43:58.711176][debug][463446][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 16:43:58.711182][debug][463446][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 16:43:58.711192][info][463446][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 16:43:58.711205][info][463446][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 16:43:58.711217][info][463446][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 16:43:58.711233][debug][463446][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 16:44:40.308273][debug][466809][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 16:44:40.308298][debug][466809][Context.cpp:49] Config file version=1.1
+[01/23 16:44:40.308306][debug][466809][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 16:44:40.308309][info][466809][Context.cpp:68] Context created with config: default config!
+[01/23 16:44:40.308318][info][466809][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 16:44:40.308322][debug][466809][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 16:44:40.308323][info][466809][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 16:44:40.308614][debug][466809][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 16:44:40.450319][debug][466809][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 16:44:40.450391][debug][466809][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 16:44:40.450403][debug][466809][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:44:40.450413][debug][466809][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:44:40.450420][debug][466809][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:44:40.450427][debug][466809][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 16:44:40.450434][debug][466809][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 16:44:40.450441][debug][466809][UsbDeviceEnumerator.cpp:166]  - 2-3-6.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:44:40.450448][debug][466809][UsbDeviceEnumerator.cpp:166]  - 2-3-6.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:44:40.450455][debug][466809][UsbDeviceEnumerator.cpp:166]  - 2-3-6.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:44:40.450462][debug][466809][UsbDeviceEnumerator.cpp:166]  - 2-3-6.6 | Orbbec Gemini Data Channel
+[01/23 16:44:40.450468][debug][466809][UsbDeviceEnumerator.cpp:166]  - 2-3-6.7 | Orbbec Gemini 2 IMU
+[01/23 16:44:40.450608][info][466809][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 16:44:40.450643][debug][466809][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 16:44:40.450655][debug][466809][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 16:44:40.450663][debug][466809][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 16:44:40.450695][info][466809][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 16:44:40.450710][info][466809][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 16:44:40.450724][info][466809][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 16:44:40.450738][debug][466809][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 16:45:05.921152][debug][468412][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 16:45:05.921173][debug][468412][Context.cpp:49] Config file version=1.1
+[01/23 16:45:05.921183][debug][468412][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 16:45:05.921186][info][468412][Context.cpp:68] Context created with config: default config!
+[01/23 16:45:05.921190][info][468412][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 16:45:05.921194][debug][468412][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 16:45:05.921196][info][468412][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 16:45:05.921485][debug][468412][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 16:45:06.062658][debug][468412][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 16:45:06.062740][debug][468412][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 16:45:06.062752][debug][468412][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:45:06.062758][debug][468412][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:45:06.062763][debug][468412][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:45:06.062769][debug][468412][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 16:45:06.062774][debug][468412][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 16:45:06.062779][debug][468412][UsbDeviceEnumerator.cpp:166]  - 2-3-6.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:45:06.062785][debug][468412][UsbDeviceEnumerator.cpp:166]  - 2-3-6.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:45:06.062790][debug][468412][UsbDeviceEnumerator.cpp:166]  - 2-3-6.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:45:06.062795][debug][468412][UsbDeviceEnumerator.cpp:166]  - 2-3-6.6 | Orbbec Gemini Data Channel
+[01/23 16:45:06.062801][debug][468412][UsbDeviceEnumerator.cpp:166]  - 2-3-6.7 | Orbbec Gemini 2 IMU
+[01/23 16:45:06.062942][info][468412][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 16:45:06.062976][debug][468412][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 16:45:06.062986][debug][468412][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 16:45:06.062993][debug][468412][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 16:45:06.063006][info][468412][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 16:45:06.063019][info][468412][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 16:45:06.063031][info][468412][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 16:45:06.063041][debug][468412][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 16:55:37.173903][debug][502808][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 16:55:37.173918][debug][502808][Context.cpp:49] Config file version=1.1
+[01/23 16:55:37.173926][debug][502808][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 16:55:37.173929][info][502808][Context.cpp:68] Context created with config: default config!
+[01/23 16:55:37.173934][info][502808][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 16:55:37.173939][debug][502808][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 16:55:37.173945][info][502808][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 16:55:37.174232][debug][502808][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 16:55:37.319444][debug][502808][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 16:55:37.319534][debug][502808][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 16:55:37.319548][debug][502808][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:55:37.319556][debug][502808][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:55:37.319563][debug][502808][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:55:37.319569][debug][502808][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 16:55:37.319578][debug][502808][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 16:55:37.319585][debug][502808][UsbDeviceEnumerator.cpp:166]  - 2-3-6.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:55:37.319592][debug][502808][UsbDeviceEnumerator.cpp:166]  - 2-3-6.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:55:37.319600][debug][502808][UsbDeviceEnumerator.cpp:166]  - 2-3-6.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:55:37.319607][debug][502808][UsbDeviceEnumerator.cpp:166]  - 2-3-6.6 | Orbbec Gemini Data Channel
+[01/23 16:55:37.319614][debug][502808][UsbDeviceEnumerator.cpp:166]  - 2-3-6.7 | Orbbec Gemini 2 IMU
+[01/23 16:55:37.319764][info][502808][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 16:55:37.319796][debug][502808][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 16:55:37.319807][debug][502808][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 16:55:37.319815][debug][502808][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 16:55:37.319831][info][502808][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 16:55:37.319846][info][502808][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 16:55:37.319861][info][502808][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 16:55:37.319874][debug][502808][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 16:56:43.172038][debug][506571][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 16:56:43.172056][debug][506571][Context.cpp:49] Config file version=1.1
+[01/23 16:56:43.172064][debug][506571][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 16:56:43.172067][info][506571][Context.cpp:68] Context created with config: default config!
+[01/23 16:56:43.172071][info][506571][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 16:56:43.172075][debug][506571][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 16:56:43.172077][info][506571][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 16:56:43.172389][debug][506571][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 16:56:43.314242][debug][506571][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 16:56:43.314319][debug][506571][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 16:56:43.314331][debug][506571][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:56:43.314338][debug][506571][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:56:43.314344][debug][506571][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:56:43.314350][debug][506571][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 16:56:43.314356][debug][506571][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 16:56:43.314362][debug][506571][UsbDeviceEnumerator.cpp:166]  - 2-3-6.0 | Orbbec Gemini 2 Depth Camera
+[01/23 16:56:43.314367][debug][506571][UsbDeviceEnumerator.cpp:166]  - 2-3-6.2 | Orbbec Gemini 2 IR Camera
+[01/23 16:56:43.314391][debug][506571][UsbDeviceEnumerator.cpp:166]  - 2-3-6.4 | Orbbec Gemini 2 RGB Camera
+[01/23 16:56:43.314397][debug][506571][UsbDeviceEnumerator.cpp:166]  - 2-3-6.6 | Orbbec Gemini Data Channel
+[01/23 16:56:43.314404][debug][506571][UsbDeviceEnumerator.cpp:166]  - 2-3-6.7 | Orbbec Gemini 2 IMU
+[01/23 16:56:43.314541][info][506571][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 16:56:43.314571][debug][506571][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 16:56:43.314583][debug][506571][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 16:56:43.314591][debug][506571][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 16:56:43.314606][info][506571][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 16:56:43.314619][info][506571][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 16:56:43.314630][info][506571][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 16:56:43.314640][debug][506571][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 17:02:46.678745][debug][526390][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 17:02:46.678760][debug][526390][Context.cpp:49] Config file version=1.1
+[01/23 17:02:46.678768][debug][526390][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 17:02:46.678770][info][526390][Context.cpp:68] Context created with config: default config!
+[01/23 17:02:46.678775][info][526390][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 17:02:46.678782][debug][526390][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 17:02:46.678784][info][526390][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 17:02:46.679069][debug][526390][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 17:02:46.817922][debug][526390][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 17:02:46.818000][debug][526390][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 17:02:46.818010][debug][526390][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 17:02:46.818015][debug][526390][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 17:02:46.818020][debug][526390][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 17:02:46.818024][debug][526390][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 17:02:46.818029][debug][526390][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 17:02:46.818034][debug][526390][UsbDeviceEnumerator.cpp:166]  - 2-3-6.0 | Orbbec Gemini 2 Depth Camera
+[01/23 17:02:46.818038][debug][526390][UsbDeviceEnumerator.cpp:166]  - 2-3-6.2 | Orbbec Gemini 2 IR Camera
+[01/23 17:02:46.818044][debug][526390][UsbDeviceEnumerator.cpp:166]  - 2-3-6.4 | Orbbec Gemini 2 RGB Camera
+[01/23 17:02:46.818049][debug][526390][UsbDeviceEnumerator.cpp:166]  - 2-3-6.6 | Orbbec Gemini Data Channel
+[01/23 17:02:46.818054][debug][526390][UsbDeviceEnumerator.cpp:166]  - 2-3-6.7 | Orbbec Gemini 2 IMU
+[01/23 17:02:46.818179][info][526390][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 17:02:46.818208][debug][526390][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 17:02:46.818217][debug][526390][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 17:02:46.818222][debug][526390][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 17:02:46.818233][info][526390][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 17:02:46.818242][info][526390][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 17:02:46.818250][info][526390][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 17:02:46.818272][debug][526390][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 17:03:39.750046][debug][529617][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 17:03:39.750063][debug][529617][Context.cpp:49] Config file version=1.1
+[01/23 17:03:39.750073][debug][529617][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 17:03:39.750076][info][529617][Context.cpp:68] Context created with config: default config!
+[01/23 17:03:39.750081][info][529617][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 17:03:39.750085][debug][529617][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 17:03:39.750087][info][529617][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 17:03:39.750372][debug][529617][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 17:03:39.898392][debug][529617][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 17:03:39.898458][debug][529617][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 17:03:39.898472][debug][529617][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 17:03:39.898480][debug][529617][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 17:03:39.898487][debug][529617][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 17:03:39.898494][debug][529617][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 17:03:39.898501][debug][529617][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 17:03:39.898508][debug][529617][UsbDeviceEnumerator.cpp:166]  - 2-3-6.0 | Orbbec Gemini 2 Depth Camera
+[01/23 17:03:39.898515][debug][529617][UsbDeviceEnumerator.cpp:166]  - 2-3-6.2 | Orbbec Gemini 2 IR Camera
+[01/23 17:03:39.898521][debug][529617][UsbDeviceEnumerator.cpp:166]  - 2-3-6.4 | Orbbec Gemini 2 RGB Camera
+[01/23 17:03:39.898528][debug][529617][UsbDeviceEnumerator.cpp:166]  - 2-3-6.6 | Orbbec Gemini Data Channel
+[01/23 17:03:39.898535][debug][529617][UsbDeviceEnumerator.cpp:166]  - 2-3-6.7 | Orbbec Gemini 2 IMU
+[01/23 17:03:39.898718][info][529617][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 17:03:39.898750][debug][529617][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 17:03:39.898762][debug][529617][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 17:03:39.898772][debug][529617][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 17:03:39.898787][info][529617][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 17:03:39.898804][info][529617][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 17:03:39.898818][info][529617][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 17:03:39.898831][debug][529617][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 17:04:16.985576][debug][531955][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 17:04:16.985594][debug][531955][Context.cpp:49] Config file version=1.1
+[01/23 17:04:16.985601][debug][531955][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 17:04:16.985604][info][531955][Context.cpp:68] Context created with config: default config!
+[01/23 17:04:16.985609][info][531955][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 17:04:16.985613][debug][531955][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 17:04:16.985615][info][531955][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 17:04:16.985903][debug][531955][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 17:04:17.129922][debug][531955][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 17:04:17.129994][debug][531955][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 17:04:17.130015][debug][531955][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 17:04:17.130019][debug][531955][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 17:04:17.130023][debug][531955][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 17:04:17.130027][debug][531955][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 17:04:17.130031][debug][531955][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 17:04:17.130035][debug][531955][UsbDeviceEnumerator.cpp:166]  - 2-3-6.0 | Orbbec Gemini 2 Depth Camera
+[01/23 17:04:17.130039][debug][531955][UsbDeviceEnumerator.cpp:166]  - 2-3-6.2 | Orbbec Gemini 2 IR Camera
+[01/23 17:04:17.130043][debug][531955][UsbDeviceEnumerator.cpp:166]  - 2-3-6.4 | Orbbec Gemini 2 RGB Camera
+[01/23 17:04:17.130047][debug][531955][UsbDeviceEnumerator.cpp:166]  - 2-3-6.6 | Orbbec Gemini Data Channel
+[01/23 17:04:17.130050][debug][531955][UsbDeviceEnumerator.cpp:166]  - 2-3-6.7 | Orbbec Gemini 2 IMU
+[01/23 17:04:17.130146][info][531955][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 17:04:17.130169][debug][531955][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 17:04:17.130177][debug][531955][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 17:04:17.130182][debug][531955][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 17:04:17.130191][info][531955][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 17:04:17.130198][info][531955][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 17:04:17.130210][info][531955][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 17:04:17.130216][debug][531955][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 17:11:33.620083][debug][555728][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 17:11:33.620100][debug][555728][Context.cpp:49] Config file version=1.1
+[01/23 17:11:33.620110][debug][555728][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 17:11:33.620112][info][555728][Context.cpp:68] Context created with config: default config!
+[01/23 17:11:33.620117][info][555728][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 17:11:33.620121][debug][555728][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 17:11:33.620123][info][555728][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 17:11:33.620419][debug][555728][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 17:11:33.761650][debug][555728][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 17:11:33.761695][debug][555728][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 17:11:33.761702][debug][555728][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 17:11:33.761707][debug][555728][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 17:11:33.761710][debug][555728][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 17:11:33.761713][debug][555728][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 17:11:33.761717][debug][555728][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 17:11:33.761720][debug][555728][UsbDeviceEnumerator.cpp:166]  - 2-3-6.0 | Orbbec Gemini 2 Depth Camera
+[01/23 17:11:33.761724][debug][555728][UsbDeviceEnumerator.cpp:166]  - 2-3-6.2 | Orbbec Gemini 2 IR Camera
+[01/23 17:11:33.761727][debug][555728][UsbDeviceEnumerator.cpp:166]  - 2-3-6.4 | Orbbec Gemini 2 RGB Camera
+[01/23 17:11:33.761731][debug][555728][UsbDeviceEnumerator.cpp:166]  - 2-3-6.6 | Orbbec Gemini Data Channel
+[01/23 17:11:33.761734][debug][555728][UsbDeviceEnumerator.cpp:166]  - 2-3-6.7 | Orbbec Gemini 2 IMU
+[01/23 17:11:33.761839][info][555728][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 17:11:33.761860][debug][555728][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 17:11:33.761867][debug][555728][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 17:11:33.761871][debug][555728][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 17:11:33.761882][info][555728][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 17:11:33.761890][info][555728][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 17:11:33.761897][info][555728][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 17:11:33.761903][debug][555728][DeviceManager.cpp:52] DeviceManager construct done!
+[01/23 17:12:48.938948][debug][560064][Context.cpp:30] Context creating, work_dir=/home/zyh/wmz/camera/scripts
+[01/23 17:12:48.938964][debug][560064][Context.cpp:49] Config file version=1.1
+[01/23 17:12:48.938974][debug][560064][FrameBufferManager.cpp:23] Max global frame buffer size updated! size=2048.000MB
+[01/23 17:12:48.938977][info][560064][Context.cpp:68] Context created with config: default config!
+[01/23 17:12:48.938982][info][560064][Context.cpp:73] Work directory=/home/zyh/wmz/camera/scripts, SDK version=v1.10.16-20241021-5113dad
+[01/23 17:12:48.938986][debug][560064][DeviceManager.cpp:30] DeviceManager init ...
+[01/23 17:12:48.938988][info][560064][LinuxPal.cpp:32] createObPal: create LinuxPal!
+[01/23 17:12:48.939280][debug][560064][DeviceManager.cpp:34] Enable USB Device Enumerator ...
+[01/23 17:12:49.085693][debug][560064][EnumeratorLibusb.cpp:324] queryDevicesInfo done!
+[01/23 17:12:49.085752][debug][560064][UsbDeviceEnumerator.cpp:163] Current usb device port list:
+[01/23 17:12:49.085761][debug][560064][UsbDeviceEnumerator.cpp:166]  - 2-10-4.0 | Orbbec Gemini 2 Depth Camera
+[01/23 17:12:49.085766][debug][560064][UsbDeviceEnumerator.cpp:166]  - 2-10-4.2 | Orbbec Gemini 2 IR Camera
+[01/23 17:12:49.085770][debug][560064][UsbDeviceEnumerator.cpp:166]  - 2-10-4.4 | Orbbec Gemini 2 RGB Camera
+[01/23 17:12:49.085774][debug][560064][UsbDeviceEnumerator.cpp:166]  - 2-10-4.6 | Orbbec Gemini Data Channel
+[01/23 17:12:49.085778][debug][560064][UsbDeviceEnumerator.cpp:166]  - 2-10-4.7 | Orbbec Gemini 2 IMU
+[01/23 17:12:49.085782][debug][560064][UsbDeviceEnumerator.cpp:166]  - 2-3-6.0 | Orbbec Gemini 2 Depth Camera
+[01/23 17:12:49.085786][debug][560064][UsbDeviceEnumerator.cpp:166]  - 2-3-6.2 | Orbbec Gemini 2 IR Camera
+[01/23 17:12:49.085790][debug][560064][UsbDeviceEnumerator.cpp:166]  - 2-3-6.4 | Orbbec Gemini 2 RGB Camera
+[01/23 17:12:49.085794][debug][560064][UsbDeviceEnumerator.cpp:166]  - 2-3-6.6 | Orbbec Gemini Data Channel
+[01/23 17:12:49.085798][debug][560064][UsbDeviceEnumerator.cpp:166]  - 2-3-6.7 | Orbbec Gemini 2 IMU
+[01/23 17:12:49.085909][info][560064][LinuxPal.cpp:166] Create PollingDeviceWatcher!
+[01/23 17:12:49.085933][debug][560064][UsbDeviceEnumerator.cpp:71] Found 2 device(s):
+[01/23 17:12:49.085941][debug][560064][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, connection: USB3.0
+[01/23 17:12:49.085946][debug][560064][UsbDeviceEnumerator.cpp:74]   - Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, connection: USB3.0
+[01/23 17:12:49.085954][info][560064][DeviceManager.cpp:15] Current found device(s): (2)
+[01/23 17:12:49.085963][info][560064][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3X742007C, Connection: USB3.0
+[01/23 17:12:49.085972][info][560064][DeviceManager.cpp:24] 	- Name: Orbbec Gemini 2, PID: 0x0670, SN/ID: AY3C7310098, Connection: USB3.0
+[01/23 17:12:49.085980][debug][560064][DeviceManager.cpp:52] DeviceManager construct done!
