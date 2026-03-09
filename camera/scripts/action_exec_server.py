@@ -112,7 +112,7 @@ def main() -> None:
         print("[EXEC] 等待动作信号中...（状态：PUB + REQ 可用）")
     else:
         print("[EXEC] 等待动作信号中...（状态：仅 PUB）")
-    if args.exec_stride > 1:
+    if args.exec_stride >= 1:
         print(f"[EXEC] chunk执行步长启用 exec_stride={args.exec_stride}")
 
     try:

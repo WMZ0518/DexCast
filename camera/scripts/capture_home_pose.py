@@ -35,7 +35,8 @@ def main() -> None:
     xhand = None
 
     if not args.no_ur:
-        ur5 = ur5RobotAgent(ip_address=args.ur_ip)
+        # This script only reads current robot states, so no RTDE control channel is needed.
+        ur5 = ur5RobotAgent(ip_address=args.ur_ip, enable_control=False)
 
     if not args.no_xhand:
         xhand = XHandAgent(
@@ -59,12 +60,14 @@ def main() -> None:
 
         if xhand is not None:
             states = xhand.get_joint_states()
+            # import pdb; pdb.set_trace()
             if states is None:
                 print("XHand joints: None")
             else:
-                hand_deg = [float(states[i]) for i in range(12)]
+                hand_rad = [float(states[i]) for i in range(12)]
+                hand_deg = [v * 180.0 / math.pi for v in hand_rad]
                 print("XHand joints (deg):", _fmt_list(hand_deg))
-                print(f"XHAND_HOME_DEG=\"{_fmt_list(hand_deg)}\"")
+                print("XHand joints (rad):", _fmt_list(hand_rad))
     finally:
         try:
             if xhand is not None:

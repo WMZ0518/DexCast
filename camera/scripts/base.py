@@ -156,7 +156,7 @@ if __name__ == "__main__":
     mesh_file = "../our_data/processed/mangguo/1764919025923146/scaled_mesh.obj"   # 模型文件路径
 
     # 运行参数
-    device_index = 1          # 相机索引
+    device_index = 0          # 相机索引
     server_url = "tcp://127.0.0.1:5555"   # 如果不在本机推理, 切换成其他局域网地址
     # server_url = "tcp:// 192.168.1.124:5555"  
 

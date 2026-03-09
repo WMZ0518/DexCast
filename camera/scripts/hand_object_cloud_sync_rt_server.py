@@ -233,7 +233,7 @@ def main() -> None:
     parser.add_argument("--text_prompt", type=str, required=True)
     parser.add_argument("--mesh_file", type=str, required=True)
     parser.add_argument("--robot_name", type=str, default="ur5_xhand")
-    parser.add_argument("--hand_points", type=int, default=1024)
+    parser.add_argument("--hand_points", type=int, default=256)
     parser.add_argument("--hand_device", type=str, default="cuda")
     parser.add_argument("--mesh_points", type=int, default=1024)
     parser.add_argument("--device_index", type=int, default=0)
@@ -271,9 +271,9 @@ def main() -> None:
     parser.add_argument("--no_xy_grid", action="store_true", help="PNG中关闭XY平面网格")
     parser.add_argument("--pc_offset_xyz", type=str, default="0,0,0",
                         help="点云XYZ整体偏置，格式: x,y,z（单位与点云一致）")
-    parser.add_argument("--pc_offset_hand_xyz", type=str, default=None,
+    parser.add_argument("--pc_offset_hand_xyz", type=str, default="0.0,0.0,0.05",
                         help="手点云XYZ偏置，格式: x,y,z（单位与点云一致），优先生效")
-    parser.add_argument("--pc_offset_obj_xyz", type=str, default=None,
+    parser.add_argument("--pc_offset_obj_xyz", type=str, default="-0.06,0.01,-0.02",
                         help="物体点云XYZ偏置，格式: x,y,z（单位与点云一致），优先生效")
 
     args = parser.parse_args()

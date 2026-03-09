@@ -29,7 +29,9 @@ class GDSAMDetector:
         sam = sam_model_registry["vit_h"](checkpoint=str(sam_ckpt)).to(device)
         self.sam_predictor = SamPredictor(sam)
 
-    def detect(self, image_rgb: np.ndarray, text_prompt: str, box_threshold=0.3, text_threshold=0.25):
+    # def detect(self, image_rgb: np.ndarray, text_prompt: str, box_threshold=0.6, text_threshold=0.25):
+    def detect(self, image_rgb: np.ndarray, text_prompt: str, box_threshold=0.4, text_threshold=0.2):
+
         """
         输入: RGB numpy图像
         输出: Union mask (bool numpy array)
